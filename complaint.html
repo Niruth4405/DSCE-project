@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint's page</title>
+    <link rel="stylesheet" href="complaint.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Contact us</a>
+        </nav>
+    </header>
+<div class="container">
+    <div class="complaints-section">
+
+        <form action="#">
+            <label id="type">Problem type</label>
+            <select name="problem" id="type">
+            <option value="Select">Select</option>
+            <option value="Carpentary">Carpentary</option>
+            <option value="Plumbing">Plumbing</option>
+            <option value="Electrician">Electrician</option>
+            <option value="Logistics">Logistics</option>
+             </select><br>
+
+            <label>Problem description</label>
+            <textarea cols="70" rows="5"></textarea><br>
+            <label>Building Number</label>
+            <input type="number" required>
+
+            <label>Floor Number</label>
+            <input type="number" required>
+
+            <label>Room Number</label>
+            <input type="number" required>
+
+            <button type="submit">Submit</button>
+
+            </form>
+            </div>
+</div>
+</body>
+</html>
